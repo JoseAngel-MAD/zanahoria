@@ -1,0 +1,84 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'MontrealRegular', 'sans-serif';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.zanahoria{
+    font-weight: bolder;
+    color: darkorange;
+    display: inline;
+    border-bottom: 4px solid darkorange;
+}
+
+.contenedor{
+    margin-left:10%;
+    padding: 20px;
+    max-width: 700px;
+    margin: 15em auto 0;
+}
+
+.posdata{
+    font-weight: bold;
+    border-top: 3px solid aqua;
+    padding-top: 1em;
+    margin-top: 5em;
+}
+
+.sub{
+    border-bottom: 7px solid aqua;
+}
+
+
+.pie{
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    border-top: 4px solid aquamarine;
+    padding-top: 0.7em;
+}
+
+@media (min-width: 500px) {
+    
+    .contenedor{
+        padding: 2em;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    .pie{
+        font-size: 1.1rem;
+        margin-top: 2em;   
+    }
+}
+
+
+@media (min-width: 800px){
+
+    p{
+        font-size: 3rem;
+    }
+        
+    .pie{
+        font-size: 1.5rem;   
+        margin-top: 5em;   
+    }   
+}
