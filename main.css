@@ -18,9 +18,8 @@ p, h2, h1{
 
 .zanahoria{
     color: #DC582A;
-/*     color: darkorange; */
     display: inline;
-    border-bottom: 4px solid darkorange;
+    border-bottom: 4px solid #DC582A;
 }
 
 .contenedor{
